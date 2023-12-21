@@ -10,7 +10,6 @@ import { IProducts } from '../../types/type';
 
 import Product from './Product';
 import Products from './Products';
-import { shuffle } from '../../utils/common';
 
 const SingleProduct = () => {
   const { id } = useParams();

@@ -1,4 +1,3 @@
-import React from 'react';
 
 import BG from '../../images/computer.png';
 

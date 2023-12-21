@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import css from '../../styles/Profile.module.css';
 import { useAppDispatch, useAppSelector } from '../../hooks/reduxHooks';
-import { createUser, toggleForm, toggleFormType, updateUser } from '../../features/user/userSlice';
+import { updateUser } from '../../features/user/userSlice';
 
 const Profile = () => {
   const [values, setValues] = useState({
